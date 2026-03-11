@@ -5,7 +5,7 @@
 > 一键部署前置条件：若使用 GitHub Actions 工作流，请先在仓库 Secrets 配置 `CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`。  
 > Docker 一键启动入口仍是 `docker compose up -d`，请参考 `readme.md`。
 
-## 功能概览
+## 功能概览 
 
 - **D1（SQLite）**：持久化 Tokens / API Keys / 管理员会话 / 配置 / 日志
 - **KV**：缓存 `/images/*` 的图片/视频资源（从 `assets.grok.com` 代理抓取）
